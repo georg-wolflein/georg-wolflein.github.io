@@ -15,6 +15,8 @@
 @STRING{MICCAI_SHORT = {MICCAI}}
 @STRING{ECCV = {European Conference on Computer Vision (ECCV)}}
 @STRING{ECCV_SHORT = {ECCV}}
+@STRING{CVPR = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}}
+@STRING{CVPR_SHORT = {CVPR}}
 @STRING{NATURE_PROTOCOLS = {Nature Protocols}}
 @STRING{NATURE_PROTOCOLS_SHORT = {Nat Protoc}}
 @STRING{NATURE_COMMUNICATIONS = {Nature Communications}}
@@ -349,21 +351,6 @@
   keywords  = {journal,paper},
 }
 
-@misc{lenz2024cobra,
-  author    = {Lenz, Tim and Neidlinger, Peter and Ligero, Marta and W\"{o}lflein, Georg and van Treeck, Marko and Kather, Jakob Nikolas},
-  author+an = {4=highlight},
-  title     = {Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning},
-  year      = {2024},
-  month     = {11},
-  note      = UNDERREVIEW,
-  arxiv     = {2411.13623},
-  preview   = {cobra.png},
-  url       = {https://arxiv.org/abs/2411.13623},
-  pdf       = {https://arxiv.org/pdf/2411.13623.pdf},
-  abstract  = {Representation learning of pathology whole-slide images (WSIs) has primarily relied on weak supervision with Multiple Instance Learning (MIL). This approach leads to slide representations highly tailored to a specific clinical task. Self-supervised learning (SSL) has been successfully applied to train histopathology foundation models (FMs) for patch embedding generation. However, generating patient or slide level embeddings remains challenging. Existing approaches for slide representation learning extend the principles of SSL from patch level learning to entire slides by aligning different augmentations of the slide or by utilizing multimodal data. By integrating tile embeddings from multiple FMs, we propose a new single modality SSL method in feature space that generates useful slide representations. Our contrastive pretraining strategy, called COBRA, employs multiple FMs and an architecture based on Mamba-2. COBRA exceeds performance of state-of-the-art slide encoders on four different public CPTAC cohorts on average by at least +3.8\% AUC, despite only being pretrained on 3048 WSIs from TCGA. Additionally, COBRA is readily compatible at inference time with previously unseen feature extractors.},
-  keywords  = {preprint},
-}
-
 @misc{ligero2024clear,
   author    = {Ligero, Marta and Lenz, Tim and W\"{o}lflein, Georg and El Nahhas, Omar S. M. and Truhn, Daniel and Kather, Jakob Nikolas},
   author+an = {3=highlight},
@@ -394,4 +381,20 @@
   abstract  = {Tool use has turned large language models (LLMs) into powerful agents that can perform complex multi-step tasks by dynamically utilising external software components. However, these tools must be implemented in advance by human developers, hindering the applicability of LLM agents in domains which demand large numbers of highly specialised tools, like in life sciences and medicine. Motivated by the growing trend of scientific studies accompanied by public code repositories, we propose ToolMaker, a novel agentic framework that autonomously transforms papers with code into LLM-compatible tools. Given a short task description and a repository URL, ToolMaker autonomously installs required dependencies and generates code to perform the task, using a closed-loop self-correction mechanism to iteratively diagnose and rectify errors. To evaluate our approach, we introduce a benchmark comprising 15 diverse and complex computational tasks spanning both medical and non-medical domains with over 100 unit tests to objectively assess tool correctness and robustness. ToolMaker correctly implements 80\% of the tasks, substantially outperforming current state-of-the-art software engineering agents. ToolMaker therefore is a step towards fully autonomous agent-based scientific workflows.},
   keywords  = {preprint},
   selected  = {true},
+}
+
+@inproceedings{lenz2025cobra,
+  author    = {Lenz, Tim and Neidlinger, Peter and Ligero, Marta and W\"{o}lflein, Georg and van Treeck, Marko and Kather, Jakob Nikolas},
+  author+an = {4=highlight},
+  title     = {Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning},
+  year      = {2025},
+  month     = {06},
+  booktitle = CVPR,
+  abbr      = CVPR_SHORT,
+  arxiv     = {2411.13623},
+  preview   = {cobra.png},
+  url       = {https://arxiv.org/abs/2411.13623},
+  pdf       = {https://arxiv.org/pdf/2411.13623.pdf},
+  abstract  = {Representation learning of pathology whole-slide images (WSIs) has primarily relied on weak supervision with Multiple Instance Learning (MIL). This approach leads to slide representations highly tailored to a specific clinical task. Self-supervised learning (SSL) has been successfully applied to train histopathology foundation models (FMs) for patch embedding generation. However, generating patient or slide level embeddings remains challenging. Existing approaches for slide representation learning extend the principles of SSL from patch level learning to entire slides by aligning different augmentations of the slide or by utilizing multimodal data. By integrating tile embeddings from multiple FMs, we propose a new single modality SSL method in feature space that generates useful slide representations. Our contrastive pretraining strategy, called COBRA, employs multiple FMs and an architecture based on Mamba-2. COBRA exceeds performance of state-of-the-art slide encoders on four different public CPTAC cohorts on average by at least +3.8\% AUC, despite only being pretrained on 3048 WSIs from TCGA. Additionally, COBRA is readily compatible at inference time with previously unseen feature extractors.},
+  keywords  = {paper},
 }
