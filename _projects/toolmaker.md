@@ -1,7 +1,7 @@
 ---
 layout: project
 title: ToolMaker
-description: 
+description: LLM Agents Making Agent Tools
 img: assets/img/publication_preview/toolmaker.png
 figure: https://raw.githubusercontent.com/KatherLab/ToolMaker/main/resources/overview.png
 importance: 1
@@ -37,12 +37,14 @@ links:
   paper: https://arxiv.org/abs/2502.11705
   code: https://github.com/KatherLab/ToolMaker
 abstract: Tool use has turned large language models (LLMs) into powerful agents that can perform complex multi-step tasks by dynamically utilising external software components. However, these tools must be implemented in advance by human developers, hindering the applicability of LLM agents in domains which demand large numbers of highly specialised tools, like in life sciences and medicine. Motivated by the growing trend of scientific studies accompanied by public code repositories, we propose ToolMaker, a novel agentic framework that autonomously transforms papers with code into LLM-compatible tools. Given a short task description and a repository URL, ToolMaker autonomously installs required dependencies and generates code to perform the task, using a closed-loop self-correction mechanism to iteratively diagnose and rectify errors. To evaluate our approach, we introduce a benchmark comprising 15 diverse and complex computational tasks spanning both medical and non-medical domains with over 100 unit tests to objectively assess tool correctness and robustness. ToolMaker correctly implements 80% of the tasks, substantially outperforming current state-of-the-art software engineering agents. ToolMaker therefore is a step towards fully autonomous agent-based scientific workflows.
+tldr: We develop an agentic framework for autonomously creating LLM-compatible tools from papers with associated code repositories.
 ---
 
 # Citation
 
 If you would like to cite our work, please use:
 
+{% raw %}
 ```bibtex
 @misc{wolflein2025toolmaker,
   author        = {W\"{o}lflein, Georg and Ferber, Dyke and Truhn, Daniel and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
@@ -54,7 +56,8 @@ If you would like to cite our work, please use:
   url           = {https://arxiv.org/abs/2502.11705}
 }
 ```
+{% endraw %}
 
 # Acknowledgements
 
-GW is supported by Lothian NHS. 
+We thank Junhao Liang, Michaela Unger, and David Charatan for contributing tasks to the benchmark. We also appreciate Jan Clusmann, Tim Lenz, and Lina Hadji-Kyriacou for their feedback on the manuscript, and are grateful to Annelies Blätterlein for designing the ToolMaker logo.
