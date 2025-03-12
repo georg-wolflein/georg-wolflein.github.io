@@ -21,9 +21,10 @@ jobs:
       with:
         ruby-version: '3.4.1'
         bundler-cache: true
+    - name: Install imagemagick (for "convert" command)
+      uses: mfinelli/setup-imagemagick@v6
     - name: Install deps
       run: |
-        apt-get install -y imagemagick
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
