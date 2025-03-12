@@ -5,7 +5,7 @@ description:
 img: assets/img/publication_preview/histaug.png
 figure: https://raw.githubusercontent.com/georg-wolflein/histaug/master/assets/overview.png
 importance: 1
-venue: 
+venue: ECCV 2024 BIC Workshop
 authors:
   - name: Georg Wölflein
     institutions: [1, 2]
@@ -60,11 +60,13 @@ tldr: We perform a comprehensive empirical study on weakly supervised whole slid
 If you would like to cite our work, please use:
 
 ```bibtex
-@misc{wolflein2023good,
-    title   = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification}, 
-    author  = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob N.},
-    journal = {arXiv:2311.11772},
-    year    = {2023},
+@inproceedings{wolflein2023good,
+  author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
+  title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification},
+  year      = {2024},
+  month     = {09},
+  booktitle = {European Conference on Computer Vision (ECCV) BioImage Computing Workshop},
+  publisher = {Springer},
 }
 ```
 
