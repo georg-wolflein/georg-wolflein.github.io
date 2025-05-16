@@ -5,7 +5,7 @@ description: LLM Agents Making Agent Tools
 img: assets/img/publication_preview/toolmaker.png
 figure: https://raw.githubusercontent.com/KatherLab/ToolMaker/main/resources/overview.png
 importance: 1
-venue: 
+venue: ACL 2025
 authors:
   - name: Georg Wölflein
     institutions: [1, 2]
