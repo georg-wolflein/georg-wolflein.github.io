@@ -8,19 +8,19 @@ importance: 1
 venue: ACL 2025
 authors:
   - name: Georg Wölflein
-    institutions: [1, 2]
+    institutions: [1, 2, 3, "&dagger;"]
     url: https://georg.woelflein.eu
   - name: Dyke Ferber
-    institutions: [1, 3]
+    institutions: [3, 4, "&Dagger;"]
     url: https://scholar.google.com/citations?user=r7JtdUcAAAAJ
   - name: Daniel Truhn
-    institutions: [4]
+    institutions: [5]
     url: https://www.lfb.rwth-aachen.de/en/institute/team/truhn
   - name: Ognjen Arandjelović
     institutions: [2]
     url: https://risweb.st-andrews.ac.uk/portal/en/persons/oggie-arandelovic(fdd98ab1-564a-42a3-bf0c-fab7afbbd63c).html
   - name: Jakob N. Kather
-    institutions: [1, 3, 5]
+    institutions: [1, 4, 6]
     url: https://kather.ai/
 institutions:
   - id: 1
@@ -28,11 +28,17 @@ institutions:
   - id: 2
     name: School of Computer Science, University of St Andrews, UK
   - id: 3
-    name: National Center for Tumor Diseases (NCT), Heidelberg University Hospital, Germany
+    name: Synagen AI, Germany
   - id: 4
-    name: Department of Diagnostic and Interventional Radiology, University Hospital Aachen, Germany
+    name: National Center for Tumor Diseases (NCT), Heidelberg University Hospital, Germany
   - id: 5
+    name: Department of Diagnostic and Interventional Radiology, University Hospital Aachen, Germany
+  - id: 6
     name: Department of Medicine I, University Hospital Dresden, Germany
+  - id: "&dagger;"
+    name: work done while at EKFZ for Digital Health, TU Dresden and University of St Andrews
+  - id: "&Dagger;"
+    name: work done while at EKFZ for Digital Health, TU Dresden and NCT Heidelberg
 links:
   paper: https://arxiv.org/abs/2502.11705
   code: https://github.com/KatherLab/ToolMaker
@@ -46,18 +52,21 @@ If you would like to cite our work, please use:
 
 {% raw %}
 ```bibtex
-@misc{wolflein2025toolmaker,
+@inproceedings{wolflein2025toolmaker,
   author        = {W\"{o}lflein, Georg and Ferber, Dyke and Truhn, Daniel and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
   title         = {{LLM} Agents Making Agent Tools},
+  booktitle     = {Annual Meeting of the Association for Computational Linguistics (ACL)},
   year          = {2025},
-  eprint        = {2502.11705},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
+  month         = {07},
   url           = {https://arxiv.org/abs/2502.11705}
 }
 ```
 {% endraw %}
 
 # Acknowledgements
+We thank Junhao Liang, Michaela Unger, and David Charatan for contributing tasks to TM-Bench.
+We also appreciate Jan Clusmann, Tim Lenz, and Lina Hadji-Kyriacou for their feedback on the manuscript, and thank Nathaly Dongo and Annelies Blätterlein for logo design.
 
-We thank Junhao Liang, Michaela Unger, and David Charatan for contributing tasks to the benchmark. We also appreciate Jan Clusmann, Tim Lenz, and Lina Hadji-Kyriacou for their feedback on the manuscript, and are grateful to Annelies Blätterlein for designing the ToolMaker logo.
+## Funding
+GW is supported by SCADS.AI, Lothian NHS, and in part by funding from the European Union's Horizon 2020 research and innovation programme (KATY, 101017453). 
+JNK is supported by the German Cancer Aid (DECADE, 70115166), the German Federal Ministry of Education and Research (PEARL, 01KD2104C; CAMINO, 01EO2101; TRANSFORM LIVER, 031L0312A; TANGERINE, 01KT2302 through ERA-NET Transcan; Come2Data, 16DKZ2044A; DEEP-HCC, 031L0315A; DECIPHER-M, 01KD2420A; NextBIG, 01ZU2402A), the German Academic Exchange Service (SECAI, 57616814), the German Federal Joint Committee (TransplantKI, 01VSF21048), the European Union's Horizon Europe research and innovation programme (ODELIA, 101057091; GENIAL, 101096312), the European Research Council (ERC; NADIR, 101114631), the National Institutes of Health (EPICO, R01 CA263318) and the National Institute for Health and Care Research (NIHR) Leeds Biomedical Research Centre (grant number NIHR203331). 
