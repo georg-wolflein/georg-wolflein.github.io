@@ -1,34 +1,66 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Arandjelović":
+  - firstname: ["Ognjen", "O."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/oggie-arandelovic(fdd98ab1-564a-42a3-bf0c-fab7afbbd63c).html
+"Weir":
+  - firstname: ["Michael", "M."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/michael-kenneth-weir(609b0bc6-bbe9-4f05-bd90-92772b19acf9).html
+"Harrison":
+  - firstname: ["David", "D.", "David J", "David J.", "D. J."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/david-james-harrison(6bb6c114-15d1-4b0d-9091-8ce3ce9c2c7d).html
+"Um":
+  - firstname: ["In Hwa", "I. H."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/in-hwa-um(0ac978a2-6ef8-4397-bc36-f920a77696a3).html
+"Magister":
+  - firstname: ["Lucie Charlotte", "L. C."]
+    url: https://caraml-group.github.io/author/lucie-charlotte-magister/
+"Liò":
+  - firstname: ["Pietro", "P."]
+    url: https://www.cl.cam.ac.uk/~pl219/
+"Ferber":
+  - firstname: ["Dyke", "D."]
+    url: https://www.klinikum.uni-heidelberg.de/personen/dyke-ferber-9789
+"Meneghetti":
+  - firstname: ["Asier Rabasco", "Asier", "Asier R.", "A. R.", "A."]
+    url: https://scholar.google.com/citations?user=GnhtOGMAAAAJ
+"El Nahhas":
+  - firstname: ["Omar", "Omar S. M.", "O. S. M", "O."]
+    url: https://scholar.google.com/citations?user=tE9cPywAAAAJ
+"Truhn":
+  - firstname: ["Daniel", "D."]
+    url: https://www.lfb.rwth-aachen.de/en/institute/team/truhn/
+"Carrero":
+  - firstname: ["Zunamys", "Zunamys I.", "Z.", "Z. I."]
+    url: https://scholar.google.com/citations?user=I_G3fPgAAAAJ
+"Kather":
+  - firstname: ["Jakob", "Jakob Nikolas", "Jakob N.", "J. N."]
+    url: https://kather.ai
+"Ligero":
+  - firstname: ["Marta", "M."]
+    url: https://scholar.google.com/citations?user=0LLfhWYAAAAJ
+"Lenz":
+  - firstname: ["Tim", "T."]
+    url: https://scholar.google.com/citations?user=4S75gC0AAAAJ
+"van Treek":
+  - firstname: ["Marko", "M."]
+    url: https://github.com/LocalToasty
+"Khader":
+  - firstname: ["Firas", "F."]
+    url: https://scholar.google.com/citations?user=to8g5LsAAAAJ
+"Unger":
+  - firstname: ["Michaela", "M."]
+    url: https://scholar.google.com/citations?user=qTtTRjgAAAAJ
+"Wagner":
+  - firstname: ["Sophia", "Sophia J.", "S. J."]
+    url: https://scholar.google.de/citations?user=skcoUZMAAAAJ
+"Hewitt":
+  - firstname: ["Katherine J.", "K. J."]
+    url: https://orcid.org/0000-0001-6602-0141
+"Battail":
+  - firstname: ["Christophe", "C."]
+    url: https://scholar.google.com/citations?user=at9bmQQAAAAJ
+"Gazut":
+  - firstname: ["Stéphane", "S."]
+    url: https://dblp.org/pid/184/8678.html
+"Wiest":
+  - firstname: ["Isabella", "Isabella C."]
+    url: https://scholar.google.com/citations?user=OtcWA9IAAAAJ
