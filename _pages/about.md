@@ -19,12 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm Georg, an AI Engineer at [Synagen AI](https://synagen.ai){:target="\_blank"} and PhD student at the [University of St Andrews](https://www.st-andrews.ac.uk){:target="\_blank"}, advised by [Ognjen Arandjelović](http://oa7.host.cs.st-andrews.ac.uk){:target="\_blank"}.
-I also work part-time as a researcher in the Clinical Artificial Intelligence group ([Kather Lab](https://jnkather.github.io){:target="\_blank"}) at [TU Dresden](https://www.tu-dresden.de){:target="\_blank"}.
-My current focus is on developing LLM agents for healthcare. 
+I'm Georg, an AI Engineer at [Synagen AI](https://synagen.ai){:target="\_blank"} and part-time researcher at [Kather Lab](https://jnkather.github.io){:target="\_blank"} ([TU Dresden](https://www.tu-dresden.de){:target="\_blank"}).
+Before this, I was a PhD student at the [University of St Andrews](https://www.st-andrews.ac.uk){:target="\_blank"}, advised by [Ognjen Arandjelović](https://www.st-andrews.ac.uk/computer-science/people/oa7/){:target="\_blank"}
+My current focus is on developing LLM agents for healthcare.
 Previously, my research centred on computer vision and deep learning for computational pathology, with an emphasis on weakly supervised biomarker prediction from histopathology images.
-<!-- Prior to this, I studied an integrated master's (MSci) in Computer Science at the same institution. -->
 
+<!-- Prior to this, I studied an integrated master's (MSci) in Computer Science at the same institution. -->
 
 Feel free to reach out via email!
 
