@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in computer vision / deep learning
+subtitle: #PhD student in computer vision / deep learning
 
 profile:
   align: right
