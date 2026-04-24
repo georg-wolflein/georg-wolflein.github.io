@@ -25,6 +25,31 @@
 @STRING{NATURE_COMMUNICATIONS_SHORT = {Nat Commun}}
 @STRING{NATURE_CANCER = {Nature Cancer}}
 @STRING{NATURE_CANCER_SHORT = {Nat Cancer}}
+@STRING{NPJ_DIGITAL_MEDICINE = {npj Digital Medicine}}
+@STRING{NPJ_DIGITAL_MEDICINE_SHORT = {npj Digit Med}}
+@STRING{ESMO_RWD_DO = {ESMO Real World Data and Digital Oncology}}
+@STRING{ESMO_RWD_DO_SHORT = {ESMO RWD Digit Oncol}}
+
+@article{liu2026benchmarking,
+  author    = {Liu, Yunsong and Carrero, Zunamys I. and Jiang, Xiaofeng and Ferber, Dyke and W\"{o}lflein, Georg and Zhang, Li and Jayabalan, Sanddhya and Lenz, Tim and Hui, Zhouguang and Kather, Jakob Nikolas},
+  author+an = {5=highlight},
+  title     = {Benchmarking large language model-based agent systems for clinical decision tasks},
+  year      = {2026},
+  month     = {02},
+  day       = {18},
+  journal   = NPJ_DIGITAL_MEDICINE,
+  abbr      = NPJ_DIGITAL_MEDICINE_SHORT,
+  volume    = {9},
+  number    = {1},
+  pages     = {259},
+  doi       = {10.1038/s41746-026-02443-6},
+  preview   = {agent-bench.png},
+  url       = {https://www.nature.com/articles/s41746-026-02443-6},
+  pdf       = {https://www.nature.com/articles/s41746-026-02443-6.pdf},
+  code      = {https://github.com/NCCYUNSONG/AgentBenchMedicine_source},
+  abstract  = {Agentic artificial intelligence (AI) systems, designed to autonomously reason, plan, and invoke tools, have shown promise in healthcare, yet systematic benchmarking of their real-world performance remains limited. In this study, we evaluate two such systems: the open-source OpenManus, built on Meta's Llama-4 and extended with medically customized agents; and Manus, a proprietary agent system employing a multistep planner-executor-verifier architecture. Both systems were assessed across three benchmark families: AgentClinic, a stepwise dialog-based diagnostic simulation; MedAgentsBench, a knowledge-intensive medical QA dataset; and Humanity's Last Exam (HLE), a suite of challenging text-only and multimodal questions. Despite access to advanced tools (e.g., web browsing, code development and execution, and text file editing) agent systems yielded only modest accuracy gains over baseline LLMs, reaching 60.3\% and 28.0\% in AgentClinic MedQA and MIMIC, 30.3\% on MedAgentsBench, and 8.6\% on HLE text. Multimodal accuracy remained low (15.5\% on multimodal HLE, 29.2\% on AgentClinic NEJM), while resource demands increased substantially, with >10x token usage and >2x latency. Although 89.9\% of hallucinations were filtered by in-agent safeguards, hallucinations remained prevalent. These findings reveal that current agentic designs offer modest performance benefits at significant computational and workflow cost, underscoring the need for more accurate, efficient, and clinically viable agent systems.},
+  keywords  = {journal,paper},
+}
 
 @article{ferber2025autonomous,
   author    = {Ferber, Dyke and El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Wiest, Isabella C. and Clusmann, Jan and Leßman, Marie-Elisabeth and Foersch, Sebastian and Lammert, Jacqueline and Tschochohei, Maximilian and J\"{a}ger, Dirk and Salto-Tellez, Manuel and Schultz, Nikolaus and Truhn, Daniel and Kather, Jakob Nikolas},
@@ -35,6 +60,9 @@
   day       = {06},
   journal   = NATURE_CANCER,
   abbr      = NATURE_CANCER_SHORT,
+  volume    = {6},
+  number    = {8},
+  pages     = {1337--1349},
   doi       = {10.1038/s43018-025-00991-6},
   arxiv     = {2404.04667},
   preview   = {rag-agents.png},
@@ -53,7 +81,8 @@
   month     = {06},
   booktitle = CVPR,
   abbr      = CVPR_SHORT,
-  note      = {accepted},
+  pages     = {30807--30817},
+  doi       = {10.1109/CVPR52734.2025.02869},
   arxiv     = {2411.13623},
   preview   = {cobra.png},
   url       = {https://arxiv.org/abs/2411.13623},
@@ -70,7 +99,6 @@
   month     = {09},
   booktitle = MICCAI,
   abbr      = MICCAI_SHORT,
-  note      = {accepted},
   arxiv     = {2411.16803},
   preview   = {clear.png},
   url       = {https://arxiv.org/abs/2411.16803},
@@ -87,7 +115,6 @@
   month     = {07},
   booktitle = ACL,
   abbr      = ACL_SHORT,
-  note      = {accepted},
   arxiv     = {2502.11705},
   preview   = {toolmaker.png},
   url       = {https://arxiv.org/abs/2502.11705},
@@ -98,6 +125,21 @@
   abstract  = {Tool use has turned large language models (LLMs) into powerful agents that can perform complex multi-step tasks by dynamically utilising external software components. However, these tools must be implemented in advance by human developers, hindering the applicability of LLM agents in domains which demand large numbers of highly specialised tools, like in life sciences and medicine. Motivated by the growing trend of scientific studies accompanied by public code repositories, we propose ToolMaker, a novel agentic framework that autonomously transforms papers with code into LLM-compatible tools. Given a short task description and a repository URL, ToolMaker autonomously installs required dependencies and generates code to perform the task, using a closed-loop self-correction mechanism to iteratively diagnose and rectify errors. To evaluate our approach, we introduce a benchmark comprising 15 diverse and complex computational tasks spanning both medical and non-medical domains with over 100 unit tests to objectively assess tool correctness and robustness. ToolMaker correctly implements 80\% of the tasks, substantially outperforming current state-of-the-art software engineering agents. ToolMaker therefore is a step towards fully autonomous agent-based scientific workflows.},
   keywords  = {conference,paper},
   selected  = {true},
+}
+
+@misc{zhang2025selfhosted,
+  author       = {Zhang, Li and W\"{o}lflein, Georg and Ferber, Dyke and Liang, J. and Carrero, Zunamys I. and Lenz, Tim and Kather, Jakob Nikolas},
+  author+an    = {2=highlight},
+  title        = {{74P} Self-hosted open-source large language models for autonomous clinical agents},
+  year         = {2025},
+  month        = {11},
+  howpublished = ESMO_RWD_DO,
+  abbr         = ESMO_RWD_DO_SHORT,
+  volume       = {10},
+  pages        = {100273},
+  doi          = {10.1016/j.esmorw.2025.100273},
+  url          = {https://doi.org/10.1016/j.esmorw.2025.100273},
+  keywords     = {abstract},
 }
 
 @article{ferber2024gpt4,
@@ -127,6 +169,10 @@
   month     = {09},
   journal   = NATURE_PROTOCOLS,
   abbr      = NATURE_PROTOCOLS_SHORT,
+  volume    = {20},
+  number    = {1},
+  pages     = {293--316},
+  doi       = {10.1038/s41596-024-01047-2},
   arxiv     = {2312.10944},
   preview   = {stamp.png},
   url       = {https://www.nature.com/articles/s41596-024-01047-2},
